@@ -17,4 +17,4 @@ python 3.6
 
 
 ### pretrained model 
-##  The HAM10000.pth,ISIC2019.pth in the code directory are the pre-trained models on the HAM10000 and ISIC2019 datasets respectively
+The HAM10000.pth,ISIC2019.pth in the code directory are the pre-trained models on the HAM10000 and ISIC2019 datasets respectively
