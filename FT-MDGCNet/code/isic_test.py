@@ -30,7 +30,7 @@ def main():
                                    #normalize
                                    ])}
 
-    val_data = '/home/wyp/datasets/HAM(82)/test' 
+    val_data = 'datasets/HAM(82)/test' 
 
     validate_dataset = datasets.ImageFolder(val_data,
                                             transform=data_transform["val"])
@@ -51,7 +51,7 @@ def main():
     net = pvig_ti_224_gelu(num_classes=7)
     # load pretrain weights
 
-    model_weight_path = "/home/wyp/codes/20230607/3D-Vig/ISIC2018/p-2/new/save_model/(k-neighbor=9-tune)06-20/val_f106-20.pth"
+    model_weight_path = "HAM10000.pth"
     net.load_state_dict(torch.load(model_weight_path))
     
     net.to(device)
