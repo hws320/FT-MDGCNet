@@ -110,8 +110,8 @@ def main(lr=0.0001,epoch=300):
 
 
 
-    train_data = '/home/wyp/datasets/HAM(82)/train'
-    val_data = '/home/wyp/datasets/HAM(82)/test'   
+    train_data = 'datasets/HAM(82)/train'
+    val_data = 'datasets/HAM(82)/test'   
     # train_data = '/home/lsw/data/busi/train'
     # val_data = '/home/lsw/data/busi/val'    
     # train_data = '/home/lsw/data/Dataset_BUSI_with_GT/train'
